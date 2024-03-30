@@ -194,9 +194,10 @@ nav .links a:hover::after{
 .page3 img{
     width: 500px;
     height: 500px;
-    border-radius: 50%;
+    border-radius: 500px;
     object-fit: cover;
     object-position: center;
+    overflow: hidden;
 }
 .page3-content{
     width: 50%;
@@ -221,6 +222,41 @@ nav .links a:hover::after{
 
 .page4{
     width: 100%;
-    height: 100%;
-    background-color: red;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5vw 5vw;
+    gap: 5vw;
+    background-color: #fff0e3;
+    overflow: hidden;
+}
+
+.page4 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.page4-content{
+    width: 50%;
+}
+.page4-content h1{
+    color: rgb(255, 60, 0);
+    font-size: 6vw;
+}
+.page4-content p{
+    color: rgb(255, 89, 0);
+    font-size: 1.4vw;
+    padding: 3vw 0vw;
+}
+.page4-content button{
+    padding: 1vw 4vw;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    font-weight: 700;
+    background-color: orangered;
+    border: none;
+    color: white;
 }
